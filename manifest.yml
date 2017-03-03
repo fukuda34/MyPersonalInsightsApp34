@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MyPersonalInsightsApp34
+  host: MyPersonalInsightsApp34
+  disk_quota: 1024M
+  services:
+  - MyPersonalInsightsApp34-personality_insights
